@@ -1,0 +1,35 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+ul {
+  list-style: none;
+}
+input {
+  background: none;
+  outline: none;
+  border: none;
+}
+input:focus {
+  border: none;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+}
+section {
+  flex: 1;
+  overflow: hidden;
+}
+
+/* Toast样式 */
+.toasts {
+  bottom: 60px !important;
+  font-size: 12px !important;
+}
+.mint-toast-text {
+  font-size: 12px !important;
+}
